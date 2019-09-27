@@ -11,13 +11,12 @@ p {
 .btn {
     /*border: 3px solid rgb(61, 138, 61);*/
     border: 3px solid #81dfb3;
-    padding: 14px 60px;
+    padding: 8px 70px;
     color: rgb(0, 0, 0);
     font-size: 17px;
     line-height: 20px;
     text-transform: uppercase;
     letter-spacing: .1em;
-    border-radius: 20px;
 }
 
 .btn:hover {
@@ -28,13 +27,12 @@ p {
 
 .btn-sobre {
     border: 3px solid #81dfb3;
-    padding: 14px 60px;
+    padding: 8px 70px;
     color: rgb(0, 0, 0);
     font-size: 17px;
     line-height: 20px;
     text-transform: uppercase;
     letter-spacing: .1em;
-    border-radius: 20px;
     margin-left: 7%;
 }
 
@@ -52,18 +50,19 @@ p {
     color: #000;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 5%;
 }
 
 .subtitulo::after {
     content: "";
     display: block;
-    width: 20%;
+    width: 6%;
     height: 3px;
     border-radius: 100px;
     background: #000;
     margin-top: 0.6%;
     align-self: center;
-    margin-left: 40%;
+    margin-left: 47%;
 }
 /* Header */
 
@@ -164,14 +163,18 @@ p {
 
 .produtos {
     background-color: #fff;
-    padding: 7%;
-    margin-top: 19%;
+    padding: 6% 0;
+    margin-top: 25%;
     display: inline-block;
 }
 
 .produtos_lista li {
-    background-color: #fff;
     text-align: center;
+    margin-left: 7%;
+}
+
+.produtos_lista {
+    margin-left: 7%;
 }
 
 .produtos_lista li h3 {
@@ -185,13 +188,23 @@ p {
 .produtos_lista li h3::after{
     content: "";
     display: block;
-    width: 72%;
+    width: 6%;
     height: 3px;
     border-radius: 100px;
     background: #000;
     margin-top: 0.6%;
+    align-self: center;
+    margin-left: 47%;
+}
+
+.produtos_icone {
+    padding: 20px;
 }
 
 .produtos_icone li p {
     padding: 10px 20px 20px 20px;
+}
+
+.produtos_icone img {
+    width: 50%;
 }

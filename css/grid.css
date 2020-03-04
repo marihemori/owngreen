@@ -5,7 +5,7 @@
 }
 
 .container {
-	width: 100%;
+	width: 960px;
 	margin: 0 auto;
 	padding: 0px;
 	position: relative;
@@ -37,7 +37,7 @@
 .grid-9 	{width: 520px;}
 .grid-10 	{width: 580px;}
 .grid-11 	{width: 640px;}
-.grid-12 	{width: 75%;}
+.grid-12 	{width: 700px;}
 .grid-13 	{width: 760px;}
 .grid-14 	{width: 820px;}
 .grid-15 	{width: 880px;}

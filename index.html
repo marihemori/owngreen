@@ -11,27 +11,56 @@
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/home.css">
 
     <title>Gardencraft</title>
+
+    <script src="https://kit.fontawesome.com/cedc6ec192.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header class="header">
         <div class="container">
             <a href="index.html" class="grid-7">
-                <img src="img/gardencraft.png" alt="Logo of the Gardencraft">
+                <img class="logo" src="img/gardencraft.png" alt="Logo of the Gardencraft">
             </a>
 
-            <nav class=" grid-12 header_menu">
+            <nav class=" grid-13 header_menu">
                 <ul>
                     <li><a href="aboutus.html">About us</a></li>
                     <li><a href="ourproducts.html">Our products</a></li>
                     <li><a href="onsale.html">On sale</a></li>
-                    <li><a href="onsale.html">Seach here ...</a></li>
+                    <li> 
+                        <input type="text" class="searchbox" placeholder="Search seeds ...">
+                        <button type="submit" class="searchbtn"><i class="fas fa-search"></i></button>
+                    </li>
+
                 </ul>
             </nav>
         </div>
     </header>
+
+    <section class="introduction-container">
+
+        <div class="introduction_img">
+            <img class="" src="img/introduction_img.svg" alt="Plants">
+        </div>
+
+        <div class="introduction_text">
+            <h1>Your garden,</h1><br> 
+            <h1>where you need it.</h1>
+            <blockquote>
+                <p>Organic seeds, ready for planting in your home.</p>
+                <hr>
+            </blockquote>
+            <div class="home_buttons">
+                <a href="plants.html" class="btn" class="sub_btn" id="sub_btn">Plants</a>
+                
+                <a href="furniture.html" class="btn">Furniture</a> 
+            </div>
+        </div>
+
+    </section>
 
 </body>
 

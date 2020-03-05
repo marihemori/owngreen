@@ -1,0 +1,13 @@
+.header {
+ width: 100%;
+ padding: 15px 0;
+}
+
+.header_menu {
+ text-align: right;
+}
+
+.header_menu ul li {
+ display: inline-block;
+ margin-left: 20px;
+}

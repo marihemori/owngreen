@@ -1,3 +1,5 @@
+/* Introduction */
+
 blockquote {
  margin-top: 4%;
  margin-bottom: 19%;
@@ -72,3 +74,16 @@ hr {
 
  transition: all 0.3s ease-in-out;
 }
+
+/* Seeds */
+
+.seeds-container {
+  color: #303030;
+  margin: 9% 10% 0% 11%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #7EC498;
+
+  box-shadow: 0 0 0.8em rgba(0, 0, 0, 0),
+  0 0 0.8em rgba(0, 0, 0, 0.308);
+ }

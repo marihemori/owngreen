@@ -7,10 +7,20 @@
  height: 63px;
 }
 
+.header_container {
+ color: #303030;
+ margin: 0% 10% 0% 12%;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
 .header_menu {
  text-align: right;
 }
 
+.header_menu ul {
+ text-align: right;
+}
 .header_menu ul li {
  display: inline-block;
  margin-left: 20px;
@@ -21,9 +31,7 @@
  color: #303030;
  font-weight: lighter;
  font-size: 18px;
- line-height: 20px;
  padding: 10px 0;
-
  transition: all 0.2s ease-in;
 }
 

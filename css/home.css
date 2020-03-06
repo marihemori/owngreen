@@ -8,21 +8,20 @@ blockquote {
  margin-left: 20%;
 }
 
-hr {
+.hr1 {
  background-color: #7EC498;
  height: 5px;
  border: none;
  padding: 0;
  width: 80%;
  margin-left: 20%;
-
  box-shadow: 0 0 0.8em rgba(0, 0, 0, 0),
   0 0 0.8em rgba(0, 0, 0, 0.308);
 }
 
 .introduction-container {
  color: #303030;
- margin: 9% 10% 0% 11%;
+ margin: 9% 12% 0% 12%;
  display: grid;
  grid-template-columns: 1fr 1fr;
 }
@@ -40,7 +39,7 @@ hr {
  font-size: 3rem;
  word-spacing: 4px;
  font-size: 52px;
- font-weight: 800;
+ font-weight: bold;
  text-transform: uppercase
 }
 
@@ -58,21 +57,21 @@ hr {
  font-size: 19px;
  margin-left: 31%;
  color: #303030;
- font-weight: 400;
+ font-weight: normal;
  background: none;
  border: 5px solid #7EC498;
  outline: #F3F3F3;
-
+ box-shadow: 0 0 0.8em rgba(0, 0, 0, 0),
+  0 0 0.8em rgba(0, 0, 0, 0.438);
  transition: all 0.3s ease-out;
 }
 
 .btn:hover {
- height: 48px;
- background-color: #ececec;
+ background-color: #7EC498;
  box-shadow: 0 0 0.8em rgba(0, 0, 0, 0),
-  0 0 0.8em rgba(0, 0, 0, 0.308);
-
- transition: all 0.3s ease-in-out;
+  0 0 0.8em rgba(0, 0, 0, 0.308); 
+  border: 5px solid #7EC498;
+  transition: all 0.3s ease-in-out;
 }
 
 /* Seeds */
@@ -83,7 +82,29 @@ hr {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #7EC498;
-
   box-shadow: 0 0 0.8em rgba(0, 0, 0, 0),
   0 0 0.8em rgba(0, 0, 0, 0.308);
  }
+
+ .seeds-container .seeds_text {
+   margin: auto;
+ }
+
+ .seeds-container .seeds_text h1 {
+   font-weight: 600;
+   text-transform: uppercase;
+   font-size: 30px;
+ }
+
+ .seeds-container .seeds_img {
+  margin: auto;
+}
+
+.seeds-container .seeds_img img {
+  width: 70%;
+}
+
+
+
+
+

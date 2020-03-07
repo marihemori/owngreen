@@ -15,7 +15,13 @@
 }
 
 .header_menu {
- text-align: right;
+	text-align: right;
+}
+
+.header_container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 0% 11% 0% 11%;
 }
 
 .header_menu ul {

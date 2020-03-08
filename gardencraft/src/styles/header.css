@@ -41,14 +41,13 @@
 .searchbox {
  width: 170px;
  box-sizing: border-box;
- border: 1.5px solid #b4b4b4;
+ border: 1.5px solid #7EC498;
  font-size: 15px;
- background: #F3F3F3;
+ background: rgba(243, 243, 243, 0);
 	color: #303030;
 	padding: 8px 32px 8px 12px;
 	height: 35px;
  outline: #F3F3F3;
-
  transition: all 0.3s ease-in;
  transition: all 0.3s ease-out;
 }

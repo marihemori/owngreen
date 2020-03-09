@@ -4,6 +4,11 @@ import './styles/reset.css'
 import Header from './Header';
 import Intro from './Intro';
 import Seeds from './Seeds';
+import Fertilizers from './Fertilizers';
+import Tools from './Tools';
+import ReceiveNews from './Receive_news';
+import Footer from './Footer';
+import MadeBy from './Made_By';
 
 function App() {
   return (
@@ -11,6 +16,11 @@ function App() {
       <Header />
       <Intro />
       <Seeds />
+      <Fertilizers />
+      <Tools />
+      <ReceiveNews />
+      <Footer />
+      <MadeBy />
     </body>
   );
 }

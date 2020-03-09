@@ -43,7 +43,6 @@
  box-sizing: border-box;
  border: 1.5px solid #7EC498;
  font-size: 15px;
- background: rgba(243, 243, 243, 0);
 	color: #303030;
 	padding: 8px 32px 8px 12px;
 	height: 35px;
@@ -56,9 +55,6 @@
  transition: all 0.3s ease-out;
  border: 5px solid #7EC498;
 	width: 200px;
-	
-	box-shadow:  0 0 0.8em rgba(0, 0, 0, 0),
-	0 0 0.8em rgba(0, 0, 0, 0.233);
 }
 
 .searchbtn{

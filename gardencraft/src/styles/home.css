@@ -15,8 +15,6 @@ blockquote {
  padding: 0;
  width: 80%;
  margin-left: 20%;
- box-shadow: 0 0 0.8em rgba(0, 0, 0, 0),
-  0 0 0.8em rgba(0, 0, 0, 0.308);
 }
 
 .introduction_container {
@@ -60,15 +58,11 @@ blockquote {
  background: none;
  border: 5px solid #7EC498;
  outline: #F3F3F3;
- box-shadow: 0 0 0.8em rgba(0, 0, 0, 0),
-  0 0 0.8em rgba(0, 0, 0, 0.438);
  transition: all 0.3s ease-out;
 }
 
 .btn:hover {
  background-color: #7EC498;
- box-shadow: 0 0 0.8em rgba(0, 0, 0, 0),
-  0 0 0.8em rgba(0, 0, 0, 0.308); 
   border: 5px solid #7EC498;
   transition: all 0.3s ease-in-out;
 }

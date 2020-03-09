@@ -46,7 +46,8 @@
 	color: #303030;
 	padding: 8px 32px 8px 12px;
 	height: 35px;
- outline: #F3F3F3;
+	outline: #e0e0e0;
+	background-color: #e0e0e0;
  transition: all 0.3s ease-in;
  transition: all 0.3s ease-out;
 }

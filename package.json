@@ -3,10 +3,6 @@
   "name": "gardencraft",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "9.5.0",
-    "npm": "5.7.1"
-  },
   "dependencies": {
     "express": "^4.17.1",
     "react": "^16.13.0",

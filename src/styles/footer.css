@@ -1,5 +1,5 @@
 footer {
- background-color: #7EC498;
+ background-color: #303030;
  color: #e0e0e0;
  margin-top: 8%;
  padding: 3% 8% 2% 8%;
@@ -41,7 +41,7 @@ footer {
 }
 
 .footer_container li a:hover {
- color: #303030;
+ color: #666;
  transition: all 0.3s ease-out;
 }
 

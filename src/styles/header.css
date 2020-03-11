@@ -54,7 +54,7 @@
 
 .searchbox:focus{
  transition: all 0.3s ease-out;
- border: 5px solid #7EC498;
+ border: 2px solid #7EC498;
 	width: 200px;
 }
 
@@ -65,7 +65,6 @@
  background-color: transparent;
  border: none;
  right: 19%;
- top: 2px;
+	top: 2px;
  outline: none;
- padding: 4px;
 }

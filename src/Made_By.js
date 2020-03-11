@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './styles/footer.css';
 
-const MadeBy = () => {
+const FMadeBy = () => {
  return (
   <div class="made_by">
    Made with <i class="fa fa-heart pulse"></i> 
@@ -13,7 +13,7 @@ const MadeBy = () => {
 class MadeBy extends Component {
  render() {
   return (
-   <MadeBy />
+   <FMadeBy />
   )
  }
 }

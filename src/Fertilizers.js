@@ -5,7 +5,7 @@ import FertilizersImage from './images/fert_img.png'
 const FertImg = () => {
  return (
   <div class="fert_img">
-   <img class="" src={FertilizersImage} alt="Fertilizers"></img>
+   <img src={FertilizersImage} alt="Fertilizers"></img>
   </div>
  )
 }

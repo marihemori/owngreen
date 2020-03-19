@@ -95,3 +95,24 @@ footer {
    transform: scale(1.1);
  }
 }
+
+/* Media Query */
+
+@media screen and (max-width: 900px) {
+
+  .footer_container {
+    margin: 5% 0% 20% 0%;
+    padding-left: 15%;
+    grid-template-columns: repeat(2, 0fr);
+    grid-gap: 34%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .footer_container {
+    margin: 18% 0% 60% 0%;
+    grid-template-columns: repeat(1, 0fr);
+    grid-gap: 8%;
+  }
+}

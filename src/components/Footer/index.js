@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import './styles/footer.css';
+import '../../style/footer.css';
 
-const F_About = () => {
+const FooterAbout = () => {
  return (
-  <div class="f_about">
+  <div class="f-about">
    <h3>Gardencraft</h3>
    <ul>
     <li><a href="#">What we care about</a></li>
     <li><a href="#">Careers</a></li>
     <li><a href="#">News</a></li>
    </ul>
-   <div class="f_social">
+   <div class="f-social">
     <a href="#"><i class="fab fa-instagram"></i></a>
     <a href="#"><i class="fab fa-twitter"></i></a>
     <i href="#" class="far fa-envelope"></i>
@@ -19,9 +19,9 @@ const F_About = () => {
  )
 }
 
-const F_Products = () => {
+const FooterProducts = () => {
  return (
-  <div class="f_products">
+  <div class="f-products">
    <h4>Our products</h4>
    <ul>
     <li><a href="#">Seeds</a></li>
@@ -33,9 +33,9 @@ const F_Products = () => {
  )
 }
 
-const F_Sale = () => {
+const FooterSale = () => {
  return (
-  <div class="f_sale">
+  <div class="f-sale">
    <h4>On sale</h4>
    <ul>
     <li><a href="#">Prices</a></li>
@@ -45,9 +45,9 @@ const F_Sale = () => {
  )
 }
 
-const F_Legal = () => {
+const FooterLegal = () => {
  return (
-  <div class="f_legal">
+  <div class="f-legal">
    <h4>Legal</h4>
    <ul>
     <li><a href="#">Terms</a></li>
@@ -58,18 +58,29 @@ const F_Legal = () => {
  )
 }
 
+const FooterMadeBy = () => {
+ return (
+  <div class="made-by">
+   Made with <i class="fa fa-heart pulse"></i> 
+   by <a href="https://github.com/marianamorais" target="_blank"> Mariana Morais</a>
+  </div>
+ )
+}
+
 class Footer extends Component {
  render() {
   return (
    <footer>
-    <div className="footer_container">
-     <F_About />
-     <F_Products />
-     <F_Sale />
-     <F_Legal />
+    <div className="container">
+     <FooterAbout />
+     <FooterProducts />
+     <FooterSale />
+     <FooterLegal />
+    </div>
+    <div className="made-by-container">
+     <FooterMadeBy />
     </div>
    </footer>
-
   )
  }
 }

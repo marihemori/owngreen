@@ -82,3 +82,23 @@ header .header-cart {
 	width: 28px;
 	margin-left: -16px;
 }
+
+@media (max-width: 540px) {
+	header nav {
+	 display: none;
+	}
+ 
+	header .one,
+	header .two,
+	header .three {
+	 background-color: #7EC498;
+	 height: 4px;
+	 width: 70%;
+	 margin: 5px auto;
+	}
+ 
+	header .menu-toggle {
+	 width: 50px;
+	 height: 10px;
+	}
+}

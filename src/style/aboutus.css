@@ -1,0 +1,78 @@
+section .about-intro {
+  margin: 127px 0 200px;
+}
+
+section.about-intro .container {
+  max-width: 1150px;
+  margin: auto;
+  display: flex;
+}
+
+section.about-intro .aboutusimg {
+  width: 400px;
+}
+
+section.about-intro .aboutus-text h1 {
+  font-size: 3rem;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+section.about-intro .phrases {
+  line-height: 1.9;
+}
+
+section.about-intro .join-button {
+  padding: 10px 50px;
+  font-size: 1.2rem;
+  color: #303030;
+  background: none;
+  border: 2px solid #7EC498;
+  outline: transparent;
+  transition: all 0.3s ease-out;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+section.about-intro .join-button:hover {
+  background-color: #7EC498;
+  transition: all 0.3s ease-in-out;
+}
+
+section.about-box {
+  margin: 100px 0 200px;
+}
+
+section.about-box .container {
+  max-width: 1150px;
+  margin: auto;
+  border: 2px solid #303030;
+}
+
+section.about-box .mission-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+section.about-box h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+section.about-box .boxes-style {
+  border: 2px solid #7EC498;
+  margin: 50px;
+  padding: 40px;
+  line-height: 2;
+}
+
+section.about-box .boxes-style h2 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+

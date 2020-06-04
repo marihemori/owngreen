@@ -1,35 +1,18 @@
 @media (max-width: 540px) {
- header nav {
-  display: none;
- }
 
- header .one,
- header .two,
- header .three {
-  background-color: #7EC498;
-  height: 4px;
-  width: 70%;
-  margin: 5px auto;
- }
+  section.introduction .container,
+  section.topics .container,
+  footer .container {
+    max-width: 360px;
+  }
 
- header .menu-toggle {
-  width: 50px;
-  height: 10px;
- }
-
- section.introduction .container, 
- section.topics .container,
- footer .container {
-  max-width: 360px;
- }
-
- section.introduction img {
+  section.introduction img {
     display: none;
- }
+  }
 
- section.introduction .introduction-img {
-  width: 0;
-  display: none;
+  section.introduction .introduction-img {
+    width: 0;
+    display: none;
   }
 
   section.introduction .introduction-text {
@@ -40,7 +23,9 @@
     padding: 0;
   }
 
-  section.topics .seeds-container, section.topics .fert-container, section.topics .tools-container {
+  section.topics .seeds-container,
+  section.topics .fert-container,
+  section.topics .tools-container {
     padding: 30px;
     width: 360px;
     height: 270px;

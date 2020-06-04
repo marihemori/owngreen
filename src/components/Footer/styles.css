@@ -40,7 +40,7 @@ footer .container li a {
 }
 
 footer .container li a:hover {
-  color: #7EC498;
+  color: #9ceeba;
   transition: all 0.3s ease-out;
 }
 
@@ -92,5 +92,18 @@ footer .container i:hover {
 @keyframes pound {
   to {
     transform: scale(1.1);
+  }
+}
+
+@media (max-width: 540px) {
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    padding: 50px 0;
+  }
+
+  footer .container li {
+    margin-bottom: 15px;
   }
 }

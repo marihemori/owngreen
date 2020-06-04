@@ -240,3 +240,73 @@ section.receive-news .sendbtn:hover {
   background-color: #7EC498;
   transition: all 0.3s ease-in-out;
 }
+
+@media (max-width: 540px) {
+
+  section.introduction .container,
+  section.topics .container,
+  footer .container {
+    max-width: 360px;
+  }
+
+  section.introduction img {
+    display: none;
+  }
+
+  section.introduction .introduction-img {
+    width: 0;
+    display: none;
+  }
+
+  section.introduction .introduction-text {
+    text-align: left;
+  }
+
+  section.introduction .introduction-text h1 {
+    padding: 0;
+  }
+
+  section.topics .seeds-container,
+  section.topics .fert-container,
+  section.topics .tools-container {
+    padding: 30px;
+    width: 360px;
+    height: 270px;
+    margin-top: 50px;
+  }
+
+  section.topics h1 {
+    font-size: 25px;
+  }
+
+  section.topics .seeds-img,
+  section.topics .fert-img {
+    width: 90px;
+  }
+
+  section.topics .tools-img {
+    width: 100px;
+  }
+
+  section.receive-news .container {
+    max-width: 360px;
+    flex-direction: column-reverse;
+  }
+
+  section.receive-news .rcvnews-text {
+    text-align: left;
+  }
+
+  section.receive-news .send-mail {
+    place-content: flex-start;
+  }
+
+  section.receive-news .rcvnews-img {
+    margin-top: 60px;
+    width: 330px;
+  }
+
+  section.receive-news {
+    margin-bottom: 60px;
+  }
+}

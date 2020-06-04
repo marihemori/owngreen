@@ -3,6 +3,8 @@ import '../../style/home.css';
 import '../../style/responsive.css';
 import IntroductionImg from '../../assets/introduction_img.png';
 
+import { Link } from 'react-router-dom';
+
 const IntroImg = () => {
  return (
   <div className="introduction-img">
@@ -19,7 +21,9 @@ const IntroText = () => {
     <p>Organic seeds, ready for planting in your home.</p>
 
    </blockquote>
-    <a href="plants.html" class="btn">Know more</a>
+    <Link to="/aboutus">
+      <a href="plants.html" class="btn">Know more</a>
+    </Link>
   </div>
  )
 }
@@ -29,8 +33,8 @@ class Home extends Component {
   return (
    <section className="introduction">
     <div className="container">
-    <IntroImg />
-    <IntroText />
+      <IntroImg />
+      <IntroText />
     </div>
    </section>
   )

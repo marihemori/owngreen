@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../../style/home.css';
 import '../../style/responsive.css';
-import IntroductionImg from '../../assets/introduction_img.png';
+import IntroductionImg from '../../assets/img/introduction_img.png';
 
 import { Link } from 'react-router-dom';
 

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import '../../style/home.css';
-import SeedsImage from '../../assets/seeds_img.png';
-import FertilizersImage from '../../assets/fert_img.png';
-import ToolsImage from '../../assets/tools_img.png';
+import SeedsImage from '../../assets/img/seeds_img.png';
+import FertilizersImage from '../../assets/img/fert_img.png';
+import ToolsImage from '../../assets/img/tools_img.png';
 
 const SeedsText = () => {
  return (

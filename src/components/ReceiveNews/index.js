@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../../style/home.css'
-import ReceiveNewsImg from '../../assets/receivenews_img.png';
+import ReceiveNewsImg from '../../assets/img/receivenews_img.png';
 
 const RcvNewsImg = () => {
  return (

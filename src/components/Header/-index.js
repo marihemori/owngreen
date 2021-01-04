@@ -1,23 +1,3 @@
-import React, { Component } from 'react';
-import './styles.css';
-import ImgLogo from '../../assets/gardencraft.png';
-import ImgCart from '../../assets/cart.png';
-
-import { Link } from 'react-router-dom';
-
-const Logo = () => {
-  return (
-    <div className="logo-gardencraft">
-      <Link to="/">
-        <a>
-          <img className="imglogo" src={ImgLogo} alt="Logo of the Gardencraft"></img>
-        </a>
-      </Link>
-      
-    </div>
-  );
-};
-
 const Menu = () => {
   return (
     <div className="header-menu">

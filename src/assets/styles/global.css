@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100vh;
+}
+
+body {
+  background: var(--color-background);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 500 1.6rem Raleway;
+  color: var(--color-title);
+}
+
+.container {
+  width: 90vw;
+  max-width: 700px;
+}
+
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%;
+  }
+}

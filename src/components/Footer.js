@@ -45,16 +45,13 @@ const Footer = () => {
             <h1 className="uppercase text-[1.4rem] font-medium mb-4">Legal</h1>
             <ul className="flex flex-col gap-3 text-[1.2rem] ">
               <li>
-                <Link to={"/"}>Home</Link>
+                <Link>Conditions & Terms</Link>
               </li>
               <li>
-                <Link to={"/products"}>Our products</Link>
+                <Link>Privacy Policy</Link>
               </li>
               <li>
-                <Link to={"/contact"}>Contact</Link>
-              </li>
-              <li>
-                <Link to={"/about"}>About</Link>
+                <Link>Cookies</Link>
               </li>
             </ul>
           </div>

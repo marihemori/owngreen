@@ -13,7 +13,10 @@ const CategoriesSelect = () => {
 
   return (
     <div>
-      <select onChange={(event) => handleChange(event.target.value)}>
+      <select
+        onChange={(event) => handleChange(event.target.value)}
+        className="p-1 border-[3px] border-[#000000] rounded-md"
+      >
         <option value="someOption selected hidden">Select category</option>
         {data?.map((category) => {
           return (

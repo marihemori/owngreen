@@ -3,10 +3,10 @@ import React from "react";
 const OurProducts = () => {
   return (
     <section className="mb-24 mx-auto max-w-[360px] md:max-w-lg lg:max-w-[1450px]">
-      <div className="">
-        <h2 className="h2 mb-20 text-center font-medium">
+      <div className="flex flex-col">
+        <h1 className="text-[2rem] mb-20 self-center text-center font-medium border-b-[3px] w-fit border-[#102619]">
           What are our products
-        </h2>
+        </h1>
         <div className="border-[3px] px-20 py-8 rounded-[0.3rem] border-[#1F1F1F] bg-[#BCD2C5] flex flex-row justify-between items-center mb-16 h-[20rem] lg:h-[18rem]">
           <div className="flex flex-col">
             <h2 className="text-[2rem] uppercase font-medium mb-4">Seeds</h2>

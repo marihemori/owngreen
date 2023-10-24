@@ -10,8 +10,12 @@ const Home = () => {
     <main>
       <Hero />
       <OurProducts />
-      <h2 className="h2 mb-20 text-center font-medium">Our new products</h2>
-      <LatestProducts />
+      <div className="flex flex-col">
+        <h1 className="text-[2rem] mb-20 self-center text-center font-medium border-b-[3px] w-fit border-[#102619]">
+          Our new products
+        </h1>{" "}
+        <LatestProducts />
+      </div>
       <div className="flex place-content-center">
         <Link
           to={"/products"}
